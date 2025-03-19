@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: darkorchid;
+  text-align: center;
+}
+h1 {
+  font-size: 500%;
+  color: mediumspringgreen;
+}
+img {
+  display: block;
+  margin: auto;
+}
+#btnjouer {
+  display: block;
+  width: 200px;
+  line-height: 50px;
+  background-color: aqua;
+  font-size: 250%;
+  border-color: rgb(0, 211, 211);
+  margin-left: 80%;
+  margin-top: 10%;
+}
+
+#Compte {
+  margin: auto;
+  width: 30%;
+  height: 25%;
+}
+#btnconnecter {
+  display: block;
+  margin-top: 30px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+  display: block;
+  margin-top: 30px;
+}
+#liencreer {
+  display: block;
+  margin-left: 70%;
+  margin-top: 50px;
+}
+h2 {
+  font-size: 200%;
+}
+#creercompte {
+  margin: auto;
+  width: 30%;
+  height: 25%;
+}
+#btncreer {
+  display: block;
+  margin-top: 30px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formcreer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}

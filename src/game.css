@@ -1,0 +1,10 @@
+#joueur1 {
+  float: left;
+  display: block;
+}
+#joueur2 {
+  float: right;
+  display: block;
+}
+canvas {
+}
