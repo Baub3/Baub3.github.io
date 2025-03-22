@@ -1,14 +1,14 @@
 import "./styles.css";
 
-import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set, onValue, update } from "firebase/database";
+import { initializeApp } from "./firebase/app";
+import { getDatabase, ref, set, onValue, update } from "./firebase/database";
 import {
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   updateProfile,
-} from "firebase/auth";
+} from "./firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDVH5BXrkJHS4eRgd-xE0zh0PQoJvMTwg0",
