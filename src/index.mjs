@@ -1,5 +1,3 @@
-import "./styles.css";
-
 import { initializeApp } from "./firebase/app";
 import { getDatabase, ref, set, onValue, update } from "./firebase/database";
 import {
