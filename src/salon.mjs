@@ -1,5 +1,3 @@
-import "./salon.css";
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
 import { getDatabase, ref, set, get, child, onValue } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-database.js";
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
