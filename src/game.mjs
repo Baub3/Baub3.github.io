@@ -2,8 +2,8 @@ import "./game.css";
 import { Niveaux } from "./Niveaux.mjs";
 const niveau = Niveaux[1];
 
-import { initializeApp } from "firebase/app";
-import { getDatabase, ref, update, onValue } from "firebase/database";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
+import { getDatabase, ref, update, onValue } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-database.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDVH5BXrkJHS4eRgd-xE0zh0PQoJvMTwg0",
