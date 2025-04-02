@@ -1,4 +1,3 @@
-import "./game.css";
 import { Niveaux } from "./Niveaux.mjs";
 const niveau = Niveaux[1];
 
